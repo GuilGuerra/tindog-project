@@ -1,0 +1,179 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+p {
+  color: #8F8F8F;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.color-section {
+  background-color: #FF4C68;
+  color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* Navigation tab */
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 32px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Dowload Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 18%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+/* icon and text*/
+
+.icons {
+  color: #EF8172;
+  padding-bottom: 1rem;
+}
+
+.icons:hover {
+  color: #FF4C68;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+/* Testimonial/Press Section */
+
+#testimonials {
+  background-color: #EF8172;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#press {
+  background-color: #EF8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.breed-h3 {
+  font-size: 1.5rem;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+
+#footer {
+  background-color: #FFF;
+  }
+
+.social-icons {
+  color: #8F8F8F;
+  margin: 20px 10px;
+  text-decoration: none;
+}
+
+@media (max-width: 1028px) {
+  #text {
+    text-align: center;
+  }
+
+ .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
